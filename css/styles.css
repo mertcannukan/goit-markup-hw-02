@@ -3,29 +3,24 @@ body {
 }
 
 .headercss {
-  width: 1440px;
-  height: 72px;
   background-color: #ffffff;
   border: 1px;
 }
-.logocss {
+/**.logocss {
   width: 115px;
   height: 24px;
-}
+}**/
 .weblogocss {
-  width: 44px;
-  height: 21px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #4d5ae5;
+  float: left;
 }
 .studiologocss {
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 1.5;
@@ -33,29 +28,23 @@ body {
   color: #2e2f42;
 }
 
-.menucss {
+/**.menucss {
   text-align: center;
-  width: 261px;
-  height: 24px;
-}
+}**/
 .menustudiocss {
   font-size: 16px;
   color: #2e2f42;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
-  width: 48px;
-  height: 24px;
 }
 
-.menustudiocss :hover {
+.menustudiocss:hover {
   font-size: 16px;
   color: #ff0077;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
-  width: 48px;
-  height: 24px;
 }
 
 .menuportfoliocss {
@@ -68,14 +57,12 @@ body {
   height: 24px;
 }
 
-.menuportfoliocss :hover {
+.menuportfoliocss:hover {
   font-size: 16px;
   color: #ff0077;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
-  width: 66px;
-  height: 24px;
 }
 
 .menucontactscss {
@@ -84,18 +71,14 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
-  width: 67px;
-  height: 24px;
 }
 
-.menucontactscss :hover{
+.menucontactscss:hover{
   font-size: 16px;
   color: #ff0077;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
-  width: 67px;
-  height: 24px;
 }
 
 /*.addresscss {
@@ -104,7 +87,6 @@ body {
 }*/
 
 .addresscssmail {
-  width: 153px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -113,8 +95,7 @@ body {
   text-decoration: none;
 }
 
-.addresscssmail  :hover {
-  width: 153px;
+.addresscssmail:hover {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -124,7 +105,6 @@ body {
 }
 
 .addresscsstel {
-  width: 151px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -133,8 +113,7 @@ body {
   text-decoration: none;
 }
 
-.addresscsstel :hover{
-  width: 151px;
+.addresscsstel:hover{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -145,14 +124,12 @@ body {
 
 .bannercss {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
-.h1css {
+/**.h1css {
   width: 496px;
   height: 120px;
-}
+}**/
 
 .header1css {
   color: white;
@@ -162,14 +139,12 @@ body {
   line-height: 1;
 }
 
-.btncss {
+/**.btncss {
   margin-left: 630px;
   padding: 200px 32px 16px 32px;
-}
+}**/
 
 .buttoncss {
-  width: 169px;
-  height: 56px;
   background-color: #4d5ae5;
   color: white;
   font-size: 16px;
@@ -177,9 +152,7 @@ body {
   cursor: pointer;
 }
 
-.buttoncss :hover {
-  width: 169px;
-  height: 56px;
+.buttoncss:hover {
   background-color: #ff009d;
   color: white;
   font-size: 16px;
@@ -187,7 +160,7 @@ body {
   cursor: pointer;
 }
 
-.subjectscss {
+/**.subjectscss {
   width: 1128px;
   height: 104px;
 }
@@ -210,7 +183,7 @@ body {
 .technologiescss {
   width: 264px;
   height: 104px;
-}
+}**/
 
 .contentcss {
  
@@ -230,8 +203,6 @@ body {
 }
 
 .ourteamcss {
-  width: 1440px;
-  height: 732px;
   background-color: #f4f4fd;
 }
 
@@ -248,41 +219,33 @@ body {
 }
 
 .markguerrerocss {
-  width: 264px;
-  height: 380px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   background-color: #ffffff;
 }
 
 .tomfordcss {
-  width: 264px;
-  height: 380px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   background-color: #ffffff;
 }
 
 .camilagarciacss {
-  width: 264px;
-  height: 380px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   background-color: #ffffff;
 }
 
 .danielwilsoncss {
-  width: 264px;
-  height: 380px;
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
   background-color: #ffffff;
 }
 
-.infocss {
+/**.infocss {
   width: 232px;
   height: 56px;
-}
+}**/
 
 .namecss {
   font-weight: 500;
@@ -303,8 +266,6 @@ body {
 }
 
 .portfolio {
-  width: 1128px;
-  height: 1000px;
   border: 1px solid #e7e9fc;
 }
 
@@ -318,8 +279,6 @@ body {
 }
 
 .portfoliobgcss {
-  width: 360px;
-  height: 420px;
   border: 1px #e7e9fc;
 }
 
@@ -345,15 +304,13 @@ body {
 }
 
 .footerbgcss {
-  width: 1440px;
-  height: 312px;
   background-color: #2e2f42;
 }
 
-.footerinfocss {
+/**.footerinfocss {
   width: 264px;
   height: 112px;
-}
+}**/
 
 .footerinfofontcss {
   font-style: normal;
@@ -362,14 +319,22 @@ body {
   letter-spacing: 0.02em;
   color: #f4f4fd;
 }
-.footerlogocss {
+/**.footerlogocss {
   width: 115px;
   height: 24px;
+}**/
+
+.footerweblogocss {
+  font-family: "Raleway", sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  color: #4d5ae5;
+  float: left;
 }
 .footerstudiologocss {
-  width: 71px;
-  height: 21px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 900;
   font-size: 18px;
   line-height: 1.2;
