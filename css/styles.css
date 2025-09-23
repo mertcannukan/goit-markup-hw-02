@@ -12,25 +12,28 @@ body {
 }**/
 .weblogocss {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  float: left;
+  display: inline;
+
 }
 .studiologocss {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #2e2f42;
+  display: inline;
 }
 
-/**.menucss {
-  text-align: center;
-}**/
+.menucss li,a{
+  list-style: none;
+  text-decoration: none;
+}
 .menustudiocss {
   font-size: 16px;
   color: #2e2f42;
@@ -39,9 +42,10 @@ body {
   font-weight: 500;
 }
 
+
 .menustudiocss:hover {
   font-size: 16px;
-  color: #ff0077;
+  color: #404BBF;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
@@ -53,13 +57,11 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
-  width: 66px;
-  height: 24px;
 }
 
 .menuportfoliocss:hover {
   font-size: 16px;
-  color: #ff0077;
+  color: #404BBF;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
@@ -75,7 +77,7 @@ body {
 
 .menucontactscss:hover{
   font-size: 16px;
-  color: #ff0077;
+  color: #404BBF;
   letter-spacing: 0.02em;
   line-height: 1.5;
   font-weight: 500;
@@ -100,7 +102,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: regular;
-  color: #ff0077;
+  color: #404BBF;
   text-decoration: none;
 }
 
@@ -118,7 +120,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-style: regular;
-  color: #ff0077;
+  color: #404BBF;
   text-decoration: none;
 }
 
@@ -153,16 +155,15 @@ body {
 }
 
 .buttoncss:hover {
-  background-color: #ff009d;
+  background-color: #404BBF;
   color: white;
   font-size: 16px;
-  border-inline: 15px solid #ff009d;
+  border-inline: 15px solid #404BBF;
   cursor: pointer;
 }
 
-/**.subjectscss {
-  width: 1128px;
-  height: 104px;
+.subjectscss li{
+  list-style: none;
 }
 
 .strategycss {
@@ -205,6 +206,9 @@ body {
 .ourteamcss {
   background-color: #f4f4fd;
 }
+.ourteamcss li{
+  list-style: none;
+}
 
 /*.ourteamhdcss {
   margin-left: 639px;
@@ -221,25 +225,21 @@ body {
 .markguerrerocss {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  background-color: #ffffff;
 }
 
 .tomfordcss {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  background-color: #ffffff;
 }
 
 .camilagarciacss {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  background-color: #ffffff;
 }
 
 .danielwilsoncss {
   border-bottom-right-radius: 4px;
   border-bottom-left-radius: 4px;
-  background-color: #ffffff;
 }
 
 /**.infocss {
@@ -267,6 +267,10 @@ body {
 
 .portfolio {
   border: 1px solid #e7e9fc;
+}
+
+.portfolio li{
+  list-style: none;
 }
 
 .ourportfoliocss {
@@ -326,18 +330,19 @@ body {
 
 .footerweblogocss {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.5;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  float: left;
+  display: inline;
 }
 .footerstudiologocss {
   font-family: "Raleway", sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 18px;
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #ffffff;
+  display: inline;
 }
